@@ -958,6 +958,11 @@ section.lazy-placeholder:after {
 .cid-rTZbKWlnEz .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+  .cid-rTZbKWlnEz .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
+}
 .cid-rTZbKWlnEz .collapsed button.navbar-toggler {
   display: block;
 }
@@ -1194,18 +1199,39 @@ section.lazy-placeholder:after {
 .cid-rU42pjYF98 hr {
   margin: 2rem 0;
 }
-.cid-rTZf5rWJjq {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #5e1515;
+.cid-rU9b1KPVFE {
+  padding-top: 45px;
+  padding-bottom: 75px;
+  background-color: #82e4d5;
 }
-.cid-rTZf5rWJjq .media-container-row .mbr-text {
-  color: #ffffff;
+.cid-rU9b1KPVFE .title {
+  margin-bottom: 2rem;
+}
+.cid-rU9b1KPVFE .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rU9b1KPVFE a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rU9b1KPVFE a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rU9b1KPVFE textarea.form-control {
+  min-height: 188px;
+}
+.cid-rU9b1KPVFE LABEL {
+  text-align: right;
+}
+.cid-rU9gPkqNdr {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-image: url("../../../assets/images/crossfit-534615-1920-1920x1280.jpg");
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2e2e2e;
+  background-color: #fdd0c0;
 }
 @media (max-width: 767px) {
   .cid-qTkAaeaxX5 .content {
@@ -1268,4 +1294,10 @@ section.lazy-placeholder:after {
     justify-content: center;
     -webkit-justify-content: center;
   }
+}
+.cid-qTkAaeaxX5 P {
+  color: #616161;
+}
+.cid-qTkAaeaxX5 H5 {
+  color: #616161;
 }
